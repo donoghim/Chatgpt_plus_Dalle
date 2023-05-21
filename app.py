@@ -14,7 +14,7 @@ if submit and user_input:
     #st.write(user_input)
     gpt_prompt = [{
         "role": "system",
-        "content": "Imagine the detail appearence of the input. Response it shortly around 20 words."
+        "content": "Imagine the detail appearance of the input. Response it shortly around 20 words."
     }]
 
     gpt_prompt.append({
